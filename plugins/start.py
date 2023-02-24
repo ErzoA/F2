@@ -76,7 +76,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except BaseException:
                 return
-        temp_msg = await message.reply("<code>Tunggu Sebentar...</code>")
+        temp_msg = await message.reply("<code>Sabar lagi ambil asupannya...</code>")
         try:
             messages = await get_messages(client, ids)
         except BaseException:
@@ -117,14 +117,14 @@ async def start_command(client: Client, message: Message):
         buttons = [
             [InlineKeyboardButton("• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about")],
             [
-                InlineKeyboardButton("•Join Dulu•", url=client.invitelink),
-                InlineKeyboardButton("•Join Dulu•", url=client.invitelink2),
+                InlineKeyboardButton("Join Dulu", url=client.invitelink),
+                InlineKeyboardButton("Join Dulu", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("•Join Dulu•", url=client.invitelink3),
-                InlineKeyboardButton("•Join Dulu•", url=client.invitelink4), 
+                InlineKeyboardButton("Join Dulu", url=client.invitelink3),
+                InlineKeyboardButton("Join Dulu", url=client.invitelink4), 
             ],
-            [    InlineKeyboardButton("•Join Dulu•", url=client.invitelink5),
+            [    InlineKeyboardButton("Join Dulu", url=client.invitelink5),
             ],  
 
             [
@@ -155,14 +155,14 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("•Join Dulu•", url=client.invitelink), 
-            InlineKeyboardButton("•Join Dulu•", url=client.invitelink2),
+            InlineKeyboardButton("Join Dulu", url=client.invitelink), 
+            InlineKeyboardButton("Join Dulu", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton("•Join Dulu•", url=client.invitelink3), 
-            InlineKeyboardButton("•Join Dulu•", url=client.invitelink4),
+            InlineKeyboardButton("Join Dulu", url=client.invitelink3), 
+            InlineKeyboardButton("Join Dulu", url=client.invitelink4),
         ],
-        [   InlineKeyboardButton("•Join Dulu•", url=client.invitelink5),
+        [   InlineKeyboardButton("Join Dulu", url=client.invitelink5),
         ],
     ]
     try:
