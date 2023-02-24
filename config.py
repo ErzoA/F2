@@ -9,7 +9,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5902543558:AAFW0iERgSXxsTGD7AJSwTnNJHbopemJrPU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6219679439:AAHhGbJcA90lkmA6p5Is2_0wguPcCi_DLe0")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "10037223"))
@@ -21,10 +21,10 @@ API_HASH = os.environ.get("API_HASH", "1f2527315dbd447876973460eb2b9d50")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001691579646"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1980553307"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "2133434438"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "@saya_wiki")
+OWNER = os.environ.get("OWNER", "saya_wiki")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "postgres://uwwhvfyp:1sZ9sTdLymtujY4irRDbOibOo6hocfex@mahmud.db.elephantsql.com/uwwhvfyp")
@@ -71,6 +71,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1980553307)
+ADMINS.append(2133434438)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
