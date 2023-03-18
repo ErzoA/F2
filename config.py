@@ -9,40 +9,40 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6219679439:AAHhGbJcA90lkmA6p5Is2_0wguPcCi_DLe0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6039740118:AAFcRXIr2ga2vwQEBZ2tiwEPtoD6-FwR-Mk")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "10037223"))
+APP_ID = int(os.environ.get("APP_ID", "26412042"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1f2527315dbd447876973460eb2b9d50")
+API_HASH = os.environ.get("API_HASH", "640b6a32aa855e77b419f5030c5f3b2c")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001691579646"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001833668623"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2133434438"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "828438551"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "saya_wiki")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://uwwhvfyp:1sZ9sTdLymtujY4irRDbOibOo6hocfex@mahmud.db.elephantsql.com/uwwhvfyp")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://idnhyoqw:Txl9SmHvzMssAFKW-qnGpUEWF3sg3_BX@trumpet.db.elephantsql.com/idnhyoqw")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "chnlwiki")
-GROUP = os.environ.get("GROUP", "AboutWiki")
+GROUP = os.environ.get("GROUP", "AuroraSupportGroup")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001673468177"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001869722299"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001684543110"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001934312900"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001865354149"))
-FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "-1001773217767"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001851424862"))
+FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "-1001951325785"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001855124171"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001884474269"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -70,8 +70,8 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1980553307)
-ADMINS.append(2133434438)
+ADMINS.append(828438551)
+ADMINS.append(6023972113)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
