@@ -30,19 +30,19 @@ OWNER = os.environ.get("OWNER", "saya_wiki")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://idnhyoqw:Txl9SmHvzMssAFKW-qnGpUEWF3sg3_BX@trumpet.db.elephantsql.com/idnhyoqw")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "chnlwiki")
+CHANNEL = os.environ.get("CHANNEL", "xchwiki")
 GROUP = os.environ.get("GROUP", "AuroraSupportGroup")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001684543110"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001934312900"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001884474269"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001791668592"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001851424862"))
-FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "-1001951325785"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001813453305"))
+FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "-1001934312900"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001884474269"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001684543110"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
